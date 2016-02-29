@@ -1,0 +1,31 @@
+{
+  "name": "postgres-sequelize-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js",
+    "start": "node app.js",
+    "sqlize": "sequelize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbleds/postgres-sequelize-tutorial.git"
+  },
+  "author": "Benjamin Bledsoe <bledsoedesigns@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbleds/postgres-sequelize-tutorial/issues"
+  },
+  "homepage": "https://github.com/bbleds/postgres-sequelize-tutorial#readme",
+  "dependencies": {
+    "nodemon": "^1.9.1",
+    "pg": "^4.5.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^2.3.1"
+  }
+}
